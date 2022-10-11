@@ -29,7 +29,7 @@
 	<link rel="stylesheet" href="{{ asset('css/ion.rangeSlider.css') }}" />
 	<link rel="stylesheet" href="{{ asset('css/ion.rangeSlider.skinFlat.css') }}" />
 	<link rel="stylesheet" href="{{ asset('css/magnific-popup.css') }}">
-	<link rel="stylesheet" href="{{ asset('css/main.css') }}" type="text/css">
+	<link rel="stylesheet" href="{{ asset('css/main.css') }}">
 </head>
 
 <body>
@@ -40,7 +40,7 @@
 			<nav class="navbar navbar-expand-lg navbar-light main_box">
 				<div class="container">
 					<!-- Brand and toggle get grouped for better mobile display -->
-					<a class="navbar-brand logo_h" href="index.html"><img scr="{{ asset('img/logo.png') }}" alt=""></a>
+					<a class="navbar-brand logo_h" href="index.html"><img src="{{ asset('img/logo.png') }}" alt=""></a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="icon-bar"></span>
@@ -106,7 +106,7 @@
 	<!-- start banner Area -->
 	<section class="banner-area">
 		<div class="container">
-			<div class="row fullscreen align-items-center justify-content-start">
+			<div class="row fullsrceen align-items-center justify-content-start" style="height:1000px">
 				<div class="col-lg-12">
 					<div class="active-banner-slider owl-carousel">
 						<!-- single-slide -->
@@ -124,7 +124,7 @@
 							</div>
 							<div class="col-lg-7">
 								<div class="banner-img">
-									<img class="img-fluid" scr="{{ asset('img/banner/banner-img.png') }}" alt="">
+									<img class="img-fluid" src="{{ asset('img/banner/banner-img.png') }}" alt="">
 								</div>
 							</div>
 						</div>
@@ -143,7 +143,7 @@
 							</div>
 							<div class="col-lg-7">
 								<div class="banner-img">
-									<img class="img-fluid" scr="{{ asset('img/banner/banner-img.png') }}" alt="">
+									<img class="img-fluid" src="{{ asset('img/banner/banner-img.png') }}" alt="">
 								</div>
 							</div>
 						</div>
@@ -162,7 +162,7 @@
 				<div class="col-lg-3 col-md-6 col-sm-6">
 					<div class="single-features">
 						<div class="f-icon">
-							<img scr="{{ asset('img/features/f-icon1.png') }}" alt="">
+							<img src="{{ asset('img/features/f-icon1.png') }}" alt="">
 						</div>
 						<h6>Free Delivery</h6>
 						<p>Free Shipping on all order</p>
@@ -172,7 +172,7 @@
 				<div class="col-lg-3 col-md-6 col-sm-6">
 					<div class="single-features">
 						<div class="f-icon">
-							<img scr="{{ asset('img/features/f-icon2.png') }}" alt="">
+							<img src="{{ asset('img/features/f-icon2.png') }}" alt="">
 						</div>
 						<h6>Return Policy</h6>
 						<p>Free Shipping on all order</p>
@@ -182,7 +182,7 @@
 				<div class="col-lg-3 col-md-6 col-sm-6">
 					<div class="single-features">
 						<div class="f-icon">
-							<img scr="{{ asset('img/features/f-icon3.png') }}" alt="">
+							<img src="{{ asset('img/features/f-icon3.png') }}" alt="">
 						</div>
 						<h6>24/7 Support</h6>
 						<p>Free Shipping on all order</p>
@@ -192,7 +192,7 @@
 				<div class="col-lg-3 col-md-6 col-sm-6">
 					<div class="single-features">
 						<div class="f-icon">
-							<img scr="{{ asset('img/features/f-icon4.png') }}" alt="">
+							<img src="{{ asset('img/features/f-icon4.png') }}" alt="">
 						</div>
 						<h6>Secure Payment</h6>
 						<p>Free Shipping on all order</p>
@@ -212,7 +212,7 @@
 						<div class="col-lg-8 col-md-8">
 							<div class="single-deal">
 								<div class="overlay"></div>
-								<img class="img-fluid w-100" scr="{{ asset('img/category/c1.jpg') }}" alt="">
+								<img class="img-fluid w-100" src="{{ asset('img/category/c1.jpg') }}" alt="">
 								<a href="{{ asset('img/category/c1.jpg') }}" class="img-pop-up" target="_blank">
 									<div class="deal-details">
 										<h6 class="deal-title">Sneaker for Sports</h6>
@@ -223,7 +223,7 @@
 						<div class="col-lg-4 col-md-4">
 							<div class="single-deal">
 								<div class="overlay"></div>
-								<img class="img-fluid w-100" scr="{{ asset('img/category/c2.jpg') }}" alt="">
+								<img class="img-fluid w-100" src="{{ asset('img/category/c2.jpg') }}" alt="">
 								<a href="{{ asset('img/category/c2.jpg') }}" class="img-pop-up" target="_blank">
 									<div class="deal-details">
 										<h6 class="deal-title">Sneaker for Sports</h6>
@@ -234,7 +234,7 @@
 						<div class="col-lg-4 col-md-4">
 							<div class="single-deal">
 								<div class="overlay"></div>
-								<img class="img-fluid w-100" scr="{{ asset('img/category/c3.jpg') }}" alt="">
+								<img class="img-fluid w-100" src="{{ asset('img/category/c3.jpg') }}" alt="">
 								<a href="{{ asset('img/category/c3.jpg') }}" class="img-pop-up" target="_blank">
 									<div class="deal-details">
 										<h6 class="deal-title">Product for Couple</h6>
@@ -245,7 +245,7 @@
 						<div class="col-lg-8 col-md-8">
 							<div class="single-deal">
 								<div class="overlay"></div>
-								<img class="img-fluid w-100" scr="{{ asset('img/category/c4.jpg') }}" alt="">
+								<img class="img-fluid w-100" src="{{ asset('img/category/c4.jpg') }}" alt="">
 								<a href="{{ asset('img/category/c4.jpg') }}" class="img-pop-up" target="_blank">
 									<div class="deal-details">
 										<h6 class="deal-title">Sneaker for Sports</h6>
@@ -258,7 +258,7 @@
 				<div class="col-lg-4 col-md-6">
 					<div class="single-deal">
 						<div class="overlay"></div>
-						<img class="img-fluid w-100" scr="{{ asset('img/category/c5.jpg') }}" alt="">
+						<img class="img-fluid w-100" src="{{ asset('img/category/c5.jpg') }}" alt="">
 						<a href="{{ asset('img/category/c5.jpg') }}" class="img-pop-up" target="_blank">
 							<div class="deal-details">
 								<h6 class="deal-title">Sneaker for Sports</h6>
@@ -290,7 +290,7 @@
 					<!-- single product -->
 					<div class="col-lg-3 col-md-6">
 						<div class="single-product">
-							<img class="img-fluid" scr="{{ asset('img/product/p1.jpg') }}" alt="">
+							<img class="img-fluid" src="{{ asset('img/product/p1.jpg') }}" alt="">
 							<div class="product-details">
 								<h6>addidas New Hammer sole
 									for Sports person</h6>
@@ -323,7 +323,7 @@
 					<!-- single product -->
 					<div class="col-lg-3 col-md-6">
 						<div class="single-product">
-							<img class="img-fluid" scr="{{ asset('img/product/p2.jpg') }}" alt="">
+							<img class="img-fluid" src="{{ asset('img/product/p2.jpg') }}" alt="">
 							<div class="product-details">
 								<h6>addidas New Hammer sole
 									for Sports person</h6>
@@ -356,7 +356,7 @@
 					<!-- single product -->
 					<div class="col-lg-3 col-md-6">
 						<div class="single-product">
-							<img class="img-fluid" scr="{{ asset('img/product/p3.jpg') }}" alt="">
+							<img class="img-fluid" src="{{ asset('img/product/p3.jpg') }}" alt="">
 							<div class="product-details">
 								<h6>addidas New Hammer sole
 									for Sports person</h6>
@@ -388,40 +388,7 @@
 					<!-- single product -->
 					<div class="col-lg-3 col-md-6">
 						<div class="single-product">
-							<img class="img-fluid" scr="{{ asset('img/product/p4.jpg') }}" alt="">
-							<div class="product-details">
-								<h6>addidas New Hammer sole
-									for Sports person</h6>
-								<div class="price">
-									<h6>$150.00</h6>
-									<h6 class="l-through">$210.00</h6>
-								</div>
-								<div class="prd-bottom">
-
-									<a href="" class="social-info">
-										<span class="ti-bag"></span>
-										<p class="hover-text">add to bag</p>
-									</a>
-									<a href="" class="social-info">
-										<span class="lnr lnr-heart"></span>
-										<p class="hover-text">Wishlist</p>
-									</a>
-									<a href="" class="social-info">
-										<span class="lnr lnr-sync"></span>
-										<p class="hover-text">compare</p>
-									</a>
-									<a href="" class="social-info">
-										<span class="lnr lnr-move"></span>
-										<p class="hover-text">view more</p>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- single product -->
-					<div class="col-lg-3 col-md-6">
-						<div class="single-product">
-							<img class="img-fluid" scr="{{ asset('img/product/p5.jpg') }}" alt="">
+							<img class="img-fluid" src="{{ asset('img/product/p4.jpg') }}" alt="">
 							<div class="product-details">
 								<h6>addidas New Hammer sole
 									for Sports person</h6>
@@ -454,7 +421,7 @@
 					<!-- single product -->
 					<div class="col-lg-3 col-md-6">
 						<div class="single-product">
-							<img class="img-fluid" scr="{{ asset('img/product/p6.jpg') }}" alt="">
+							<img class="img-fluid" src="{{ asset('img/product/p5.jpg') }}" alt="">
 							<div class="product-details">
 								<h6>addidas New Hammer sole
 									for Sports person</h6>
@@ -487,7 +454,7 @@
 					<!-- single product -->
 					<div class="col-lg-3 col-md-6">
 						<div class="single-product">
-							<img class="img-fluid" scr="{{ asset('img/product/p7.jpg') }}" alt="">
+							<img class="img-fluid" src="{{ asset('img/product/p6.jpg') }}" alt="">
 							<div class="product-details">
 								<h6>addidas New Hammer sole
 									for Sports person</h6>
@@ -520,7 +487,40 @@
 					<!-- single product -->
 					<div class="col-lg-3 col-md-6">
 						<div class="single-product">
-							<img class="img-fluid" scr="{{ asset('img/product/p8.jpg') }}" alt="">
+							<img class="img-fluid" src="{{ asset('img/product/p7.jpg') }}" alt="">
+							<div class="product-details">
+								<h6>addidas New Hammer sole
+									for Sports person</h6>
+								<div class="price">
+									<h6>$150.00</h6>
+									<h6 class="l-through">$210.00</h6>
+								</div>
+								<div class="prd-bottom">
+
+									<a href="" class="social-info">
+										<span class="ti-bag"></span>
+										<p class="hover-text">add to bag</p>
+									</a>
+									<a href="" class="social-info">
+										<span class="lnr lnr-heart"></span>
+										<p class="hover-text">Wishlist</p>
+									</a>
+									<a href="" class="social-info">
+										<span class="lnr lnr-sync"></span>
+										<p class="hover-text">compare</p>
+									</a>
+									<a href="" class="social-info">
+										<span class="lnr lnr-move"></span>
+										<p class="hover-text">view more</p>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- single product -->
+					<div class="col-lg-3 col-md-6">
+						<div class="single-product">
+							<img class="img-fluid" src="{{ asset('img/product/p8.jpg') }}" alt="">
 							<div class="product-details">
 								<h6>addidas New Hammer sole
 									for Sports person</h6>
@@ -570,7 +570,7 @@
 					<!-- single product -->
 					<div class="col-lg-3 col-md-6">
 						<div class="single-product">
-							<img class="img-fluid" scr="{{ asset('img/product/p6.jpg') }}" alt="">
+							<img class="img-fluid" src="{{ asset('img/product/p6.jpg') }}" alt="">
 							<div class="product-details">
 								<h6>addidas New Hammer sole
 									for Sports person</h6>
@@ -603,7 +603,7 @@
 					<!-- single product -->
 					<div class="col-lg-3 col-md-6">
 						<div class="single-product">
-							<img class="img-fluid" scr="{{ asset('img/product/p8.jpg') }}" alt="">
+							<img class="img-fluid" src="{{ asset('img/product/p8.jpg') }}" alt="">
 							<div class="product-details">
 								<h6>addidas New Hammer sole
 									for Sports person</h6>
@@ -636,7 +636,7 @@
 					<!-- single product -->
 					<div class="col-lg-3 col-md-6">
 						<div class="single-product">
-							<img class="img-fluid" scr="{{ asset('img/product/p3.jpg') }}" alt="">
+							<img class="img-fluid" src="{{ asset('img/product/p3.jpg') }}" alt="">
 							<div class="product-details">
 								<h6>addidas New Hammer sole
 									for Sports person</h6>
@@ -669,7 +669,7 @@
 					<!-- single product -->
 					<div class="col-lg-3 col-md-6">
 						<div class="single-product">
-							<img class="img-fluid" scr="{{ asset('img/product/p5.jpg') }}" alt="">
+							<img class="img-fluid" src="{{ asset('img/product/p5.jpg') }}" alt="">
 							<div class="product-details">
 								<h6>addidas New Hammer sole
 									for Sports person</h6>
@@ -702,7 +702,7 @@
 					<!-- single product -->
 					<div class="col-lg-3 col-md-6">
 						<div class="single-product">
-							<img class="img-fluid" scr="{{ asset('img/product/p1.jpg') }}" alt="">
+							<img class="img-fluid" src="{{ asset('img/product/p1.jpg') }}" alt="">
 							<div class="product-details">
 								<h6>addidas New Hammer sole
 									for Sports person</h6>
@@ -735,7 +735,7 @@
 					<!-- single product -->
 					<div class="col-lg-3 col-md-6">
 						<div class="single-product">
-							<img class="img-fluid" scr="{{ asset('img/product/p4.jpg') }}" alt="">
+							<img class="img-fluid" src="{{ asset('img/product/p4.jpg') }}" alt="">
 							<div class="product-details">
 								<h6>addidas New Hammer sole
 									for Sports person</h6>
@@ -768,7 +768,7 @@
 					<!-- single product -->
 					<div class="col-lg-3 col-md-6">
 						<div class="single-product">
-							<img class="img-fluid" scr="{{ asset('img/product/p1.jpg') }}" alt="">
+							<img class="img-fluid" src="{{ asset('img/product/p1.jpg') }}" alt="">
 							<div class="product-details">
 								<h6>addidas New Hammer sole
 									for Sports person</h6>
@@ -801,7 +801,7 @@
 					<!-- single product -->
 					<div class="col-lg-3 col-md-6">
 						<div class="single-product">
-							<img class="img-fluid" scr="{{ asset('img/product/p8.jpg') }}" alt="">
+							<img class="img-fluid" src="{{ asset('img/product/p8.jpg') }}" alt="">
 							<div class="product-details">
 								<h6>addidas New Hammer sole
 									for Sports person</h6>
@@ -874,7 +874,7 @@
 					<div class="active-exclusive-product-slider">
 						<!-- single exclusive carousel -->
 						<div class="single-exclusive-slider">
-							<img class="img-fluid" scr="{{ asset('img/product/e-p1.png') }}" alt="">
+							<img class="img-fluid" src="{{ asset('img/product/e-p1.png') }}" alt="">
 							<div class="product-details">
 								<div class="price">
 									<h6>$150.00</h6>
@@ -890,7 +890,7 @@
 						</div>
 						<!-- single exclusive carousel -->
 						<div class="single-exclusive-slider">
-							<img class="img-fluid" scr="{{ asset('img/product/e-p1.png') }}" alt="">
+							<img class="img-fluid" src="{{ asset('img/product/e-p1.png') }}" alt="">
 							<div class="product-details">
 								<div class="price">
 									<h6>$150.00</h6>
@@ -916,19 +916,19 @@
 		<div class="container">
 			<div class="row">
 				<a class="col single-img" href="#">
-					<img class="img-fluid d-block mx-auto" scr="{{ asset('img/brand/1.png') }}" alt="">
+					<img class="img-fluid d-block mx-auto" src="{{ asset('img/brand/1.png') }}" alt="">
 				</a>
 				<a class="col single-img" href="#">
-					<img class="img-fluid d-block mx-auto" scr="{{ asset('img/brand/2.png') }}" alt="">
+					<img class="img-fluid d-block mx-auto" src="{{ asset('img/brand/2.png') }}" alt="">
 				</a>
 				<a class="col single-img" href="#">
-					<img class="img-fluid d-block mx-auto" scr="{{ asset('img/brand/3.png') }}" alt="">
+					<img class="img-fluid d-block mx-auto" src="{{ asset('img/brand/3.png') }}" alt="">
 				</a>
 				<a class="col single-img" href="#">
-					<img class="img-fluid d-block mx-auto" scr="{{ asset('img/brand/4.png') }}" alt="">
+					<img class="img-fluid d-block mx-auto" src="{{ asset('img/brand/4.png') }}" alt="">
 				</a>
 				<a class="col single-img" href="#">
-					<img class="img-fluid d-block mx-auto" scr="{{ asset('img/brand/5.png') }}" alt="">
+					<img class="img-fluid d-block mx-auto" src="{{ asset('img/brand/5.png') }}" alt="">
 				</a>
 			</div>
 		</div>
@@ -952,7 +952,7 @@
 					<div class="row">
 						<div class="col-lg-4 col-md-4 col-sm-6 mb-20">
 							<div class="single-related-product d-flex">
-								<a href="#"><img scr="{{ asset('img/r1.jpg') }}" alt=""></a>
+								<a href="#"><img src="{{ asset('img/r1.jpg') }}" alt=""></a>
 								<div class="desc">
 									<a href="#" class="title">Black lace Heels</a>
 									<div class="price">
@@ -964,7 +964,7 @@
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-6 mb-20">
 							<div class="single-related-product d-flex">
-								<a href="#"><img scr="{{ asset('img/r2.jpg') }}" alt=""></a>
+								<a href="#"><img src="{{ asset('img/r2.jpg') }}" alt=""></a>
 								<div class="desc">
 									<a href="#" class="title">Black lace Heels</a>
 									<div class="price">
@@ -976,7 +976,7 @@
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-6 mb-20">
 							<div class="single-related-product d-flex">
-								<a href="#"><img scr="{{ asset('img/r3.jpg') }}" alt=""></a>
+								<a href="#"><img src="{{ asset('img/r3.jpg') }}" alt=""></a>
 								<div class="desc">
 									<a href="#" class="title">Black lace Heels</a>
 									<div class="price">
@@ -988,7 +988,7 @@
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-6 mb-20">
 							<div class="single-related-product d-flex">
-								<a href="#"><img scr="{{ asset('img/r5.jpg') }}" alt=""></a>
+								<a href="#"><img src="{{ asset('img/r5.jpg') }}" alt=""></a>
 								<div class="desc">
 									<a href="#" class="title">Black lace Heels</a>
 									<div class="price">
@@ -1000,7 +1000,7 @@
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-6 mb-20">
 							<div class="single-related-product d-flex">
-								<a href="#"><img scr="{{ asset('img/r6.jpg') }}" alt=""></a>
+								<a href="#"><img src="{{ asset('img/r6.jpg') }}" alt=""></a>
 								<div class="desc">
 									<a href="#" class="title">Black lace Heels</a>
 									<div class="price">
@@ -1012,7 +1012,7 @@
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-6 mb-20">
 							<div class="single-related-product d-flex">
-								<a href="#"><img scr="{{ asset('img/r7.jpg') }}" alt=""></a>
+								<a href="#"><img src="{{ asset('img/r7.jpg') }}" alt=""></a>
 								<div class="desc">
 									<a href="#" class="title">Black lace Heels</a>
 									<div class="price">
@@ -1024,7 +1024,7 @@
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-6">
 							<div class="single-related-product d-flex">
-								<a href="#"><img scr="{{ asset('img/r9.jpg') }}" alt=""></a>
+								<a href="#"><img src="{{ asset('img/r9.jpg') }}" alt=""></a>
 								<div class="desc">
 									<a href="#" class="title">Black lace Heels</a>
 									<div class="price">
@@ -1036,7 +1036,7 @@
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-6">
 							<div class="single-related-product d-flex">
-								<a href="#"><img scr="{{ asset('img/r10.jpg') }}" alt=""></a>
+								<a href="#"><img src="{{ asset('img/r10.jpg') }}" alt=""></a>
 								<div class="desc">
 									<a href="#" class="title">Black lace Heels</a>
 									<div class="price">
@@ -1048,7 +1048,7 @@
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-6">
 							<div class="single-related-product d-flex">
-								<a href="#"><img scr="{{ asset('img/r11.jpg') }}" alt=""></a>
+								<a href="#"><img src="{{ asset('img/r11.jpg') }}" alt=""></a>
 								<div class="desc">
 									<a href="#" class="title">Black lace Heels</a>
 									<div class="price">
@@ -1063,7 +1063,7 @@
 				<div class="col-lg-3">
 					<div class="ctg-right">
 						<a href="#" target="_blank">
-							<img class="img-fluid d-block mx-auto" scr="{{ asset('img/category/c5.jpg') }}" alt="">
+							<img class="img-fluid d-block mx-auto" src="{{ asset('img/category/c5.jpg') }}" alt="">
 						</a>
 					</div>
 				</div>
@@ -1091,7 +1091,7 @@
 						<p>Stay update with our latest</p>
 						<div class="" id="mc_embed_signup">
 
-							<form target="_blank" novalidate="true" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+							<form target="_blank" novalidate="true" action="https://spondonit.us12.list-manage.com/subsrcibe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
 							 method="get" class="form-inline">
 
 								<div class="d-flex flex-row">
@@ -1118,14 +1118,14 @@
 					<div class="single-footer-widget mail-chimp">
 						<h6 class="mb-20">Instragram Feed</h6>
 						<ul class="instafeed d-flex flex-wrap">
-							<li><img scr="{{ asset('img/i1.jpg') }}" alt=""></li>
-							<li><img scr="{{ asset('img/i2.jpg') }}" alt=""></li>
-							<li><img scr="{{ asset('img/i3.jpg') }}" alt=""></li>
-							<li><img scr="{{ asset('img/i4.jpg') }}" alt=""></li>
-							<li><img scr="{{ asset('img/i5.jpg') }}" alt=""></li>
-							<li><img scr="{{ asset('img/i6.jpg') }}" alt=""></li>
-							<li><img scr="{{ asset('img/i7.jpg') }}" alt=""></li>
-							<li><img scr="{{ asset('img/i8.jpg') }}" alt=""></li>
+							<li><img src="{{ asset('img/i1.jpg') }}" alt=""></li>
+							<li><img src="{{ asset('img/i2.jpg') }}" alt=""></li>
+							<li><img src="{{ asset('img/i3.jpg') }}" alt=""></li>
+							<li><img src="{{ asset('img/i4.jpg') }}" alt=""></li>
+							<li><img src="{{ asset('img/i5.jpg') }}" alt=""></li>
+							<li><img src="{{ asset('img/i6.jpg') }}" alt=""></li>
+							<li><img src="{{ asset('img/i7.jpg') }}" alt=""></li>
+							<li><img src="{{ asset('img/i8.jpg') }}" alt=""></li>
 						</ul>
 					</div>
 				</div>
@@ -1152,19 +1152,20 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	</footer>
 	<!-- End footer Area -->
 
-	<script scr="{{ asset('js/vendor/jquery-2.2.4.min.js') }}"></script>
-	<script scr="{{ asset('https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js') }}" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+	<script src="{{ asset('js/vendor/jquery-2.2.4.min.js') }}"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
 	 crossorigin="anonymous"></script>
-	<script scr="{{ asset('js/vendor/bootstrap.min.js') }}"></script>
-	<script scr="{{ asset('js/jquery.ajaxchimp.min.js') }}"></script>
-	<script scr="{{ asset('js/jquery.nice-select.min.js') }}"></script>
-	<script scr="{{ asset('js/jquery.sticky.js') }}"></script>
-	<script scr="{{ asset('js/nouislider.min.js') }}"></script>
-	<script scr="{{ asset('js/countdown.js') }}"></script>
-	<script scr="{{ asset('js/jquery.magnific-popup.min.js') }}"></script>
-	<script scr="{{ asset('js/owl.carousel.min.js') }}"></script>
+	<script src="{{ asset('js/vendor/bootstrap.min.js') }}"></script>
+	<script src="{{ asset('js/jquery.ajaxchimp.min.js') }}"></script>
+	<script src="{{ asset('js/jquery.nice-select.min.js') }}"></script>
+	<script src="{{ asset('js/jquery.sticky.js') }}"></script>
+	<script src="{{ asset('js/nouislider.min.js') }}"></script>
+	<script src="{{ asset('js/countdown.js') }}"></script>
+	<script src="{{ asset('js/jquery.magnific-popup.min.js') }}"></script>
+	<script src="{{ asset('js/owl.carousel.min.js') }}"></script>
 	<!--gmaps Js-->
-
+	
+	<script src="{{ asset('js/main.js') }}"></script>
 </body>
 
 </html>
